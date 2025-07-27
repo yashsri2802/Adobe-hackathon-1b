@@ -125,7 +125,7 @@ The Dockerfile creates a containerized environment for reliable, reproducible ex
 
 ### Base Image
 
-dockerfile
+dockerfile<br/>
 FROM python:3.11-slim
 
 - Uses Python 3.11 slim image for smaller footprint
@@ -133,7 +133,7 @@ FROM python:3.11-slim
 
 ### System Dependencies
 
-dockerfile
+dockerfile<br/>
 RUN apt-get update && apt-get install -y --no-install-recommends \
  gcc \
  g++ \
@@ -148,7 +148,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 ### Environment Configuration
 
-dockerfile
+dockerfile<br/>
 ENV HF_HUB_OFFLINE=1 \
  TRANSFORMERS_OFFLINE=1 \
  PYTHONUNBUFFERED=1
@@ -159,7 +159,7 @@ ENV HF_HUB_OFFLINE=1 \
 
 ### Application Setup
 
-dockerfile
+dockerfile<br/>
 COPY requirements.txt .
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
@@ -168,7 +168,7 @@ RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 ### Output Directories
 
-dockerfile
+dockerfile<br/>
 RUN mkdir -p /app/case1/output /app/case2/output /app/case3/output
 
 - Creates output directories for results
@@ -176,7 +176,7 @@ RUN mkdir -p /app/case1/output /app/case2/output /app/case3/output
 
 ### Execution
 
-dockerfile
+dockerfile<br/>
 CMD ["python", "batch_run.py"]
 
 - Automatically processes all cases when container starts
