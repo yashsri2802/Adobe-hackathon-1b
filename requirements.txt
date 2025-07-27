@@ -1,4 +1,6 @@
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
 sentence-transformers==2.5.1
-torch==2.3.0
 pymupdf==1.23.26
 numpy==1.26.4
