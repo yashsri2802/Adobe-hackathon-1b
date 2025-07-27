@@ -1,7 +1,6 @@
 import subprocess
 from pathlib import Path
 
-# List your case folders
 cases = ["case1", "case2", "case3"]
 
 for case in cases:
@@ -16,6 +15,6 @@ for case in cases:
     ]
     
     subprocess.run(cmd, check=True)
-    print(f"✅ {case} completed!")
+    print(f"{case} completed!")
 
-print("\n🎉 All cases processed!")
+print("\nAll cases processed!")

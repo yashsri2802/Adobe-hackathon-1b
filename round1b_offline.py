@@ -1,15 +1,8 @@
-#!/usr/bin/env python3
-"""
-Round 1B Offline PDF Processor
-Extracts and ranks relevant sections from PDFs
-"""
-
 import argparse, json, time, os, re
 from pathlib import Path
-import fitz  # PyMuPDF
+import fitz  
 from sentence_transformers import SentenceTransformer, util
 
-# Helper functions
 RE_NUMBERING = re.compile(r"^(\d+[\.\)]?)+(\s+|$)")
 FALSE_POS = {"abstract", "keywords", "references", "bibliography", "index", "appendix"}
 
@@ -17,7 +10,6 @@ def clean(txt: str) -> str:
     return re.sub(r"\s+", " ", txt).strip()
 
 def extract_outline(pdf_path: str) -> dict:
-    """Extract title and headings from PDF"""
     doc = fitz.open(pdf_path)
     elems = []
     
@@ -40,7 +32,6 @@ def extract_outline(pdf_path: str) -> dict:
     if not elems:
         return {"title": "Untitled Document", "outline": []}
 
-    # Find title (biggest font on page 1)
     p1 = [e for e in elems if e["page"] == 1]
     if p1:
         big = max(e["size"] for e in p1)
@@ -49,7 +40,6 @@ def extract_outline(pdf_path: str) -> dict:
     else:
         title = elems[0]["text"]
 
-    # Find headings
     body = max(set(e["size"] for e in elems), key=[e["size"] for e in elems].count)
     cands = []
     for e in elems:
@@ -61,7 +51,6 @@ def extract_outline(pdf_path: str) -> dict:
         if score >= 3:
             cands.append(e)
 
-    # Assign heading levels
     sizes = sorted({c["size"] for c in cands}, reverse=True)[:3]
     s2lvl = {s: f"H{i+1}" for i, s in enumerate(sizes)}
 
@@ -86,11 +75,9 @@ def main():
     parser.add_argument("--model_dir", required=True)
     args = parser.parse_args()
 
-    # Force offline mode
     os.environ["HF_HUB_OFFLINE"] = "1"
     os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
-    # Load instructions
     with open(args.input_json, encoding="utf-8") as f:
         meta = json.load(f)["metadata"]
     
@@ -98,32 +85,27 @@ def main():
     job = meta["job_to_be_done"]
     pdfs = meta["input_documents"]
 
-    # Load AI model
     model = SentenceTransformer(args.model_dir, device="cpu")
     query_emb = model.encode(f"{persona}: {job}", convert_to_tensor=True)
 
     extracted, subsections = [], []
     rank = 1
 
-    # Process each PDF
     for pdf in pdfs:
         pdf_path = Path(args.input_dir) / pdf
         if not pdf_path.exists():
             print(f"Missing: {pdf}")
             continue
 
-        # Extract headings
         outline = extract_outline(str(pdf_path))
         h1s = [o for o in outline["outline"] if o["level"] == "H1"]
         if not h1s:
             h1s = [{"text": outline["title"], "page": 1}]
 
-        # Load page texts
         doc = fitz.open(pdf_path)
         ptext = {i+1: doc[i].get_text() for i in range(len(doc))}
         doc.close()
 
-        # Score relevance
         blobs, infos = [], []
         for sec in h1s:
             snippet = ptext.get(sec["page"], "")[:800]
@@ -135,7 +117,6 @@ def main():
             query_emb
         ).squeeze(1).tolist()
 
-        # Save results
         for score, info in sorted(zip(sims, infos), reverse=True):
             extracted.append({
                 "document": pdf,
@@ -143,8 +124,7 @@ def main():
                 "importance_rank": rank,
                 "page_number": info["page"]
             })
-            
-            # Create summary
+
             sents = [s.strip() for s in re.split(r'[.!?]', ptext.get(info["page"], "")) if s.strip()]
             summary = ". ".join(sents[:3]) + ('.' if sents else '')
             
@@ -155,7 +135,6 @@ def main():
             })
             rank += 1
 
-    # Save results
     result = {
         "metadata": {
             "documents": pdfs,
@@ -173,7 +152,7 @@ def main():
     with out_file.open("w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
     
-    print(f"✅ Results saved to: {out_file}")
+    print(f"Results saved to: {out_file}")
 
 if __name__ == "__main__":
     main()
