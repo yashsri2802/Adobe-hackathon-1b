@@ -4,7 +4,7 @@ from pathlib import Path
 cases = ["case1", "case2", "case3"]
 
 for case in cases:
-    print(f"\n🔄 Processing {case}...")
+    print(f"\nProcessing {case}...")
     
     cmd = [
         "python", "round1b_offline.py",
