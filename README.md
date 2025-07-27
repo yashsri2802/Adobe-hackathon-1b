@@ -6,21 +6,7 @@ This project is a Python-based document analysis tool that extracts relevant sec
 
 ## Project Structure
 
-.
-├── README.md # This file
-├── requirements.txt # Python dependencies
-├── Dockerfile # Container configuration
-├── .dockerignore # Docker build exclusions
-├── round1b_offline.py # Main processing script
-├── batch_run.py # Batch processing script for multiple cases
-├── models/ # Pre-trained models directory
-│ └── all-MiniLM-L6-v2/ # Sentence transformer model
-├── case1/ # Test case 1 (Travel Planning)
-│ ├── input/ # Input PDF documents
-│ ├── output/ # Generated JSON results
-│ └── challenge1b_input.json # Case configuration
-├── case2/ # Test case 2
-└── case3/ # Test case 3
+<pre><code>📁 Project Structure . ├── README.md # Project overview and documentation ├── requirements.txt # Python dependencies ├── Dockerfile # Container configuration ├── .dockerignore # Docker build exclusions ├── round1b_offline.py # Main processing script ├── batch_run.py # Batch processing script for multiple cases ├── models/ # Pre-trained models directory │ └── all-MiniLM-L6-v2/ # Sentence transformer model ├── case1/ # Test Case 1: Travel Planning │ ├── input/ # Input PDF documents │ ├── output/ # Generated JSON results │ └── challenge1b_input.json# Case configuration ├── case2/ # Test Case 2 └── case3/ # Test Case 3 </code></pre>
 
 ## Code Explanation
 
