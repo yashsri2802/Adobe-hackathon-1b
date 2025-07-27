@@ -1,0 +1,4 @@
+sentence-transformers==2.5.1
+torch==2.3.0
+pymupdf==1.23.26
+numpy==1.26.4

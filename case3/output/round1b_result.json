@@ -1,0 +1,561 @@
+{
+  "metadata": {
+    "documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas-Mains_1.pdf",
+      "Dinner Ideas-Mains_2.pdf",
+      "Dinner Ideas-Mains_3.pdf",
+      "Dinner Ideas-Sides_1.pdf",
+      "Dinner Ideas-Sides_2.pdf",
+      "Dinner Ideas-Sides_3.pdf",
+      "Dinner Ideas-Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+    "timestamp": "2025-07-27T22:26:16Z"
+  },
+  "extracted_sections": [
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Veggie Wrap",
+      "importance_rank": 1,
+      "page_number": 13
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Almond Butter Banana Toast",
+      "importance_rank": 2,
+      "page_number": 13
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Yogurt Parfait",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Oatmeal",
+      "importance_rank": 4,
+      "page_number": 4
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Skillet",
+      "importance_rank": 5,
+      "page_number": 9
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Tacos",
+      "importance_rank": 6,
+      "page_number": 6
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Muﬃns",
+      "importance_rank": 7,
+      "page_number": 8
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Banana Bread",
+      "importance_rank": 8,
+      "page_number": 6
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Casserole",
+      "importance_rank": 9,
+      "page_number": 8
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Quesadilla",
+      "importance_rank": 10,
+      "page_number": 5
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Pizza",
+      "importance_rank": 11,
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Granola Bars",
+      "importance_rank": 12,
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Chia Pudding",
+      "importance_rank": 13,
+      "page_number": 5
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Protein Smoothie",
+      "importance_rank": 14,
+      "page_number": 12
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Sandwich",
+      "importance_rank": 15,
+      "page_number": 5
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Frittata",
+      "importance_rank": 16,
+      "page_number": 10
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Egg Muﬃns",
+      "importance_rank": 17,
+      "page_number": 12
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Bowl",
+      "importance_rank": 18,
+      "page_number": 10
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Burrito",
+      "importance_rank": 19,
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Overnight Oats",
+      "importance_rank": 20,
+      "page_number": 11
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Smoothie",
+      "importance_rank": 21,
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Apple Peanut Butter Sandwiches",
+      "importance_rank": 22,
+      "page_number": 12
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Bagel Sandwich",
+      "importance_rank": 23,
+      "page_number": 11
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Quinoa Breakfast Bowl",
+      "importance_rank": 24,
+      "page_number": 14
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Avocado Toast",
+      "importance_rank": 25,
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Croissant",
+      "importance_rank": 26,
+      "page_number": 10
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Smoothie Bowl",
+      "importance_rank": 27,
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "French Toast",
+      "importance_rank": 28,
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Ingredients:",
+      "importance_rank": 29,
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 30,
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Pancakes",
+      "importance_rank": 31,
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Scrambled Eggs",
+      "importance_rank": 32,
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Mediterranean Tuna Salad",
+      "importance_rank": 33,
+      "page_number": 14
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Mediterranean Chickpea Salad",
+      "importance_rank": 34,
+      "page_number": 6
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Pasta Salad",
+      "importance_rank": 35,
+      "page_number": 5
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Egg Salad Sandwich",
+      "importance_rank": 36,
+      "page_number": 5
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Ingredients:",
+      "importance_rank": 37,
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Chicken Salad Lettuce Wraps",
+      "importance_rank": 38,
+      "page_number": 4
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 39,
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Chicken Caesar Wrap",
+      "importance_rank": 40,
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Caprese Sandwich",
+      "importance_rank": 41,
+      "page_number": 4
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Quinoa Salad",
+      "importance_rank": 42,
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Greek Salad",
+      "importance_rank": 43,
+      "page_number": 9
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Couscous Salad",
+      "importance_rank": 44,
+      "page_number": 12
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Lentil Salad",
+      "importance_rank": 45,
+      "page_number": 8
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Tuna Salad",
+      "importance_rank": 46,
+      "page_number": 3
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Caprese Salad",
+      "importance_rank": 47,
+      "page_number": 10
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Greek Yogurt Parfait",
+      "importance_rank": 48,
+      "page_number": 3
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Veggie Sushi Rolls",
+      "importance_rank": 49,
+      "page_number": 11
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nIn a blender, combine banana, Greek yogurt, almond milk, protein powder, and \npeanut butter. • \nBlend until smooth. • \nServe immediately.",
+      "page_number": 13
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nIn a blender, combine banana, Greek yogurt, almond milk, protein powder, and \npeanut butter. • \nBlend until smooth. • \nServe immediately.",
+      "page_number": 13
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \n1/4 cup cooked sausage or bacon \n• \n1/4 cup diced bell pepper \n• \n1/4 cup diced onion \n• \n1 large flour tortilla \n• \nSalsa for serving \nInstructions: \n• \nIn a bowl, whisk the eggs and cook them in a skillet over medium heat. • \nAdd cheese, sausage or bacon, bell pepper, and onion to the eggs. • \nCook until the eggs are set and the vegetables are tender.",
+      "page_number": 4
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \n1/4 cup cooked sausage or bacon \n• \n1/4 cup diced bell pepper \n• \n1/4 cup diced onion \n• \n1 large flour tortilla \n• \nSalsa for serving \nInstructions: \n• \nIn a bowl, whisk the eggs and cook them in a skillet over medium heat. • \nAdd cheese, sausage or bacon, bell pepper, and onion to the eggs. • \nCook until the eggs are set and the vegetables are tender.",
+      "page_number": 4
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nSalt and pepper to taste \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, whisk together eggs, milk, salt, and pepper. • \nStir in cheese, sausage or bacon, bell pepper, and onion.",
+      "page_number": 9
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nCook in the skillet until the tortilla is golden brown and crispy. • \nServe with salsa. Banana Bread \nIngredients: \n• \n3 ripe bananas, mashed \n• \n1/3 cup melted butter \n• \n1/2 cup sugar \n• \n1 large egg, beaten \n• \n1 teaspoon vanilla extract \n• \n1 teaspoon baking soda \n• \nPinch of salt \n• \n1 1/2 cups all-purpose flour \nInstructions: \n• \nPreheat oven to 350°F (175°C).",
+      "page_number": 6
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Instructions: \n• \nPreheat oven to 425°F (220°C). • \nSpread marinara sauce over the pizza crust. • \nSprinkle mozzarella cheese on top.",
+      "page_number": 8
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nCook in the skillet until the tortilla is golden brown and crispy. • \nServe with salsa. Banana Bread \nIngredients: \n• \n3 ripe bananas, mashed \n• \n1/3 cup melted butter \n• \n1/2 cup sugar \n• \n1 large egg, beaten \n• \n1 teaspoon vanilla extract \n• \n1 teaspoon baking soda \n• \nPinch of salt \n• \n1 1/2 cups all-purpose flour \nInstructions: \n• \nPreheat oven to 350°F (175°C).",
+      "page_number": 6
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Instructions: \n• \nPreheat oven to 425°F (220°C). • \nSpread marinara sauce over the pizza crust. • \nSprinkle mozzarella cheese on top.",
+      "page_number": 8
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Breakfast Sandwich \nIngredients: \n• \n1 English muﬃn, split and toasted \n• \n1 large egg \n• \n1 slice of cheese \n• \n1 slice of ham or bacon \n• \nSalt and pepper to taste \nInstructions: \n• \nCook the egg in a skillet over medium heat, seasoning with salt and pepper. • \nPlace the cheese on top of the egg to melt. • \nAssemble the sandwich with the egg, cheese, and ham or bacon between the English \nmuﬃn halves.",
+      "page_number": 5
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Granola Bars \nIngredients: \n• \n2 cups rolled oats \n• \n1/2 cup honey or maple syrup \n• \n1/2 cup peanut butter \n• \n1/2 cup chopped nuts \n• \n1/2 cup dried fruit \n• \n1 teaspoon vanilla extract \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, mix oats, honey or maple syrup, peanut butter, nuts, dried fruit, and vanilla \nextract. • \nPress the mixture into a greased baking dish.",
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Granola Bars \nIngredients: \n• \n2 cups rolled oats \n• \n1/2 cup honey or maple syrup \n• \n1/2 cup peanut butter \n• \n1/2 cup chopped nuts \n• \n1/2 cup dried fruit \n• \n1 teaspoon vanilla extract \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, mix oats, honey or maple syrup, peanut butter, nuts, dried fruit, and vanilla \nextract. • \nPress the mixture into a greased baking dish.",
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Breakfast Sandwich \nIngredients: \n• \n1 English muﬃn, split and toasted \n• \n1 large egg \n• \n1 slice of cheese \n• \n1 slice of ham or bacon \n• \nSalt and pepper to taste \nInstructions: \n• \nCook the egg in a skillet over medium heat, seasoning with salt and pepper. • \nPlace the cheese on top of the egg to melt. • \nAssemble the sandwich with the egg, cheese, and ham or bacon between the English \nmuﬃn halves.",
+      "page_number": 5
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nIn the morning, stir again and add your favorite toppings. Egg Muﬃns \nIngredients: \n• \n6 large eggs \n• \n1/4 cup milk \n• \n1/2 cup diced bell pepper \n• \n1/2 cup diced spinach \n• \n1/4 cup shredded cheese \n• \nSalt and pepper to taste \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, whisk together eggs, milk, salt, and pepper.",
+      "page_number": 12
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Breakfast Sandwich \nIngredients: \n• \n1 English muﬃn, split and toasted \n• \n1 large egg \n• \n1 slice of cheese \n• \n1 slice of ham or bacon \n• \nSalt and pepper to taste \nInstructions: \n• \nCook the egg in a skillet over medium heat, seasoning with salt and pepper. • \nPlace the cheese on top of the egg to melt. • \nAssemble the sandwich with the egg, cheese, and ham or bacon between the English \nmuﬃn halves.",
+      "page_number": 5
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nServe immediately. Breakfast Bowl \nIngredients: \n• \n1/2 cup cooked quinoa \n• \n1/4 cup black beans, rinsed and drained \n• \n1/4 cup diced avocado \n• \n1/4 cup cherry tomatoes, halved \n• \n1 large egg, poached or fried \n• \nSalt and pepper to taste \n• \n1 tablespoon olive oil \nInstructions: \n• \nIn a bowl, combine quinoa, black beans, avocado, and cherry tomatoes. • \nTop with the poached or fried egg.",
+      "page_number": 10
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nIn the morning, stir again and add your favorite toppings. Egg Muﬃns \nIngredients: \n• \n6 large eggs \n• \n1/4 cup milk \n• \n1/2 cup diced bell pepper \n• \n1/2 cup diced spinach \n• \n1/4 cup shredded cheese \n• \nSalt and pepper to taste \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, whisk together eggs, milk, salt, and pepper.",
+      "page_number": 12
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nServe immediately. Breakfast Bowl \nIngredients: \n• \n1/2 cup cooked quinoa \n• \n1/4 cup black beans, rinsed and drained \n• \n1/4 cup diced avocado \n• \n1/4 cup cherry tomatoes, halved \n• \n1 large egg, poached or fried \n• \nSalt and pepper to taste \n• \n1 tablespoon olive oil \nInstructions: \n• \nIn a bowl, combine quinoa, black beans, avocado, and cherry tomatoes. • \nTop with the poached or fried egg.",
+      "page_number": 10
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \n1/2 teaspoon ground cinnamon \n• \n1 tablespoon butter \nInstructions: \n• \nIn a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon. • \nDip each slice of bread into the egg mixture, coating both sides. • \nHeat a non-stick skillet over medium heat and melt the butter.",
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \n1/4 cup diced onion \n• \n1/4 cup cooked sausage or bacon \n• \nSalt and pepper to taste \n• \n1 tablespoon olive oil \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, whisk together eggs, milk, salt, and pepper. • \nStir in cheese, bell pepper, onion, and sausage or bacon.",
+      "page_number": 11
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Granola Bars \nIngredients: \n• \n2 cups rolled oats \n• \n1/2 cup honey or maple syrup \n• \n1/2 cup peanut butter \n• \n1/2 cup chopped nuts \n• \n1/2 cup dried fruit \n• \n1 teaspoon vanilla extract \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, mix oats, honey or maple syrup, peanut butter, nuts, dried fruit, and vanilla \nextract. • \nPress the mixture into a greased baking dish.",
+      "page_number": 7
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nIn the morning, stir again and add your favorite toppings. Egg Muﬃns \nIngredients: \n• \n6 large eggs \n• \n1/4 cup milk \n• \n1/2 cup diced bell pepper \n• \n1/2 cup diced spinach \n• \n1/4 cup shredded cheese \n• \nSalt and pepper to taste \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, whisk together eggs, milk, salt, and pepper.",
+      "page_number": 12
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \n1/4 cup diced onion \n• \n1/4 cup cooked sausage or bacon \n• \nSalt and pepper to taste \n• \n1 tablespoon olive oil \nInstructions: \n• \nPreheat oven to 350°F (175°C). • \nIn a bowl, whisk together eggs, milk, salt, and pepper. • \nStir in cheese, bell pepper, onion, and sausage or bacon.",
+      "page_number": 11
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nTop with banana slices and sprinkle with chia seeds. • \nServe immediately. Greek Yogurt with Honey and Nuts \nIngredients: \n• \n1 cup Greek yogurt \n• \n1 tablespoon honey \n• \n1/4 cup mixed nuts \nInstructions: \n• \nIn a bowl, combine Greek yogurt and honey.",
+      "page_number": 14
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \n1/2 teaspoon ground cinnamon \n• \n1 tablespoon butter \nInstructions: \n• \nIn a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon. • \nDip each slice of bread into the egg mixture, coating both sides. • \nHeat a non-stick skillet over medium heat and melt the butter.",
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \nServe immediately. Breakfast Bowl \nIngredients: \n• \n1/2 cup cooked quinoa \n• \n1/4 cup black beans, rinsed and drained \n• \n1/4 cup diced avocado \n• \n1/4 cup cherry tomatoes, halved \n• \n1 large egg, poached or fried \n• \nSalt and pepper to taste \n• \n1 tablespoon olive oil \nInstructions: \n• \nIn a bowl, combine quinoa, black beans, avocado, and cherry tomatoes. • \nTop with the poached or fried egg.",
+      "page_number": 10
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "• \n1/2 teaspoon ground cinnamon \n• \n1 tablespoon butter \nInstructions: \n• \nIn a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon. • \nDip each slice of bread into the egg mixture, coating both sides. • \nHeat a non-stick skillet over medium heat and melt the butter.",
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Pancakes \nIngredients: \n• \n1 cup all-purpose flour \n• \n2 tablespoons sugar \n• \n1 teaspoon baking powder \n• \n1/2 teaspoon baking soda \n• \n1/4 teaspoon salt \n• \n1 cup buttermilk \n• \n1 large egg \n• \n2 tablespoons melted butter \n• \n1 teaspoon vanilla extract \nInstructions: \n• \nIn a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. • \nIn another bowl, combine buttermilk, egg, melted butter, and vanilla extract. • \nPour the wet ingredients into the dry ingredients and stir until just combined.",
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Pancakes \nIngredients: \n• \n1 cup all-purpose flour \n• \n2 tablespoons sugar \n• \n1 teaspoon baking powder \n• \n1/2 teaspoon baking soda \n• \n1/4 teaspoon salt \n• \n1 cup buttermilk \n• \n1 large egg \n• \n2 tablespoons melted butter \n• \n1 teaspoon vanilla extract \nInstructions: \n• \nIn a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. • \nIn another bowl, combine buttermilk, egg, melted butter, and vanilla extract. • \nPour the wet ingredients into the dry ingredients and stir until just combined.",
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Pancakes \nIngredients: \n• \n1 cup all-purpose flour \n• \n2 tablespoons sugar \n• \n1 teaspoon baking powder \n• \n1/2 teaspoon baking soda \n• \n1/4 teaspoon salt \n• \n1 cup buttermilk \n• \n1 large egg \n• \n2 tablespoons melted butter \n• \n1 teaspoon vanilla extract \nInstructions: \n• \nIn a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. • \nIn another bowl, combine buttermilk, egg, melted butter, and vanilla extract. • \nPour the wet ingredients into the dry ingredients and stir until just combined.",
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Pancakes \nIngredients: \n• \n1 cup all-purpose flour \n• \n2 tablespoons sugar \n• \n1 teaspoon baking powder \n• \n1/2 teaspoon baking soda \n• \n1/4 teaspoon salt \n• \n1 cup buttermilk \n• \n1 large egg \n• \n2 tablespoons melted butter \n• \n1 teaspoon vanilla extract \nInstructions: \n• \nIn a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. • \nIn another bowl, combine buttermilk, egg, melted butter, and vanilla extract. • \nPour the wet ingredients into the dry ingredients and stir until just combined.",
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Pancakes \nIngredients: \n• \n1 cup all-purpose flour \n• \n2 tablespoons sugar \n• \n1 teaspoon baking powder \n• \n1/2 teaspoon baking soda \n• \n1/4 teaspoon salt \n• \n1 cup buttermilk \n• \n1 large egg \n• \n2 tablespoons melted butter \n• \n1 teaspoon vanilla extract \nInstructions: \n• \nIn a bowl, whisk together flour, sugar, baking powder, baking soda, and salt. • \nIn another bowl, combine buttermilk, egg, melted butter, and vanilla extract. • \nPour the wet ingredients into the dry ingredients and stir until just combined.",
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \n1/4 cup spinach, chopped \n• \n1/4 cup shredded carrots \n• \n1 tablespoon tahini \n• \n1 tablespoon lemon juice \n• \nSalt and pepper to taste \nInstructions: \n• \nIn a bowl, combine the mashed chickpeas, spinach, carrots, tahini, and lemon juice. • \nSeason with salt and pepper. • \nLay the tortilla flat and spread the mixture evenly.",
+      "page_number": 14
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \n1 cup cooked chicken breast, diced \n• \n1/2 avocado, diced \n• \n1/4 cup cherry tomatoes, halved \n• \n1/4 cup red onion, finely chopped \n• \n2 tablespoons olive oil \n• \n1 tablespoon lemon juice \n• \nSalt and pepper to taste \nInstructions: \n• \nIn a bowl, combine the chicken, avocado, tomatoes, and red onion. • \nDrizzle with olive oil and lemon juice. • \nSeason with salt and pepper, then toss to combine.",
+      "page_number": 6
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \n1/4 cup shredded carrots \n• \n1/4 cup baby spinach \nInstructions: \n• \nLay the tortilla flat and spread the hummus evenly. • \nAdd the cucumber, bell pepper, carrots, and spinach. • \nRoll up the tortilla tightly and slice in half.",
+      "page_number": 5
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \n1/4 cup shredded carrots \n• \n1/4 cup baby spinach \nInstructions: \n• \nLay the tortilla flat and spread the hummus evenly. • \nAdd the cucumber, bell pepper, carrots, and spinach. • \nRoll up the tortilla tightly and slice in half.",
+      "page_number": 5
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Chicken Caesar Wrap \nIngredients: \n• \n1 whole wheat tortilla \n• \n1 cup cooked chicken breast, sliced \n• \n1 cup romaine lettuce, chopped \n• \n2 tablespoons Caesar dressing \n• \n2 tablespoons grated Parmesan cheese \n• \nOptional: croutons for extra crunch \nInstructions: \n• \nLay the tortilla flat and spread the Caesar dressing evenly. • \nAdd the chicken, lettuce, and Parmesan cheese. • \nRoll up the tortilla tightly and slice in half.",
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \nServe on lettuce leaves or whole grain bread. Caprese Sandwich \nIngredients: \n• \n2 slices ciabatta bread \n• \n1/2 cup fresh mozzarella, sliced \n• \n1 tomato, sliced \n• \nFresh basil leaves \n• \n1 tablespoon balsamic glaze \n• \n1 tablespoon olive oil \n• \nSalt and pepper to taste \nInstructions: \n• \nDrizzle olive oil on one slice of bread. • \nLayer the mozzarella, tomato, and basil on top.",
+      "page_number": 4
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Chicken Caesar Wrap \nIngredients: \n• \n1 whole wheat tortilla \n• \n1 cup cooked chicken breast, sliced \n• \n1 cup romaine lettuce, chopped \n• \n2 tablespoons Caesar dressing \n• \n2 tablespoons grated Parmesan cheese \n• \nOptional: croutons for extra crunch \nInstructions: \n• \nLay the tortilla flat and spread the Caesar dressing evenly. • \nAdd the chicken, lettuce, and Parmesan cheese. • \nRoll up the tortilla tightly and slice in half.",
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Chicken Caesar Wrap \nIngredients: \n• \n1 whole wheat tortilla \n• \n1 cup cooked chicken breast, sliced \n• \n1 cup romaine lettuce, chopped \n• \n2 tablespoons Caesar dressing \n• \n2 tablespoons grated Parmesan cheese \n• \nOptional: croutons for extra crunch \nInstructions: \n• \nLay the tortilla flat and spread the Caesar dressing evenly. • \nAdd the chicken, lettuce, and Parmesan cheese. • \nRoll up the tortilla tightly and slice in half.",
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \nServe on lettuce leaves or whole grain bread. Caprese Sandwich \nIngredients: \n• \n2 slices ciabatta bread \n• \n1/2 cup fresh mozzarella, sliced \n• \n1 tomato, sliced \n• \nFresh basil leaves \n• \n1 tablespoon balsamic glaze \n• \n1 tablespoon olive oil \n• \nSalt and pepper to taste \nInstructions: \n• \nDrizzle olive oil on one slice of bread. • \nLayer the mozzarella, tomato, and basil on top.",
+      "page_number": 4
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Chicken Caesar Wrap \nIngredients: \n• \n1 whole wheat tortilla \n• \n1 cup cooked chicken breast, sliced \n• \n1 cup romaine lettuce, chopped \n• \n2 tablespoons Caesar dressing \n• \n2 tablespoons grated Parmesan cheese \n• \nOptional: croutons for extra crunch \nInstructions: \n• \nLay the tortilla flat and spread the Caesar dressing evenly. • \nAdd the chicken, lettuce, and Parmesan cheese. • \nRoll up the tortilla tightly and slice in half.",
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Chickpea and Avocado Sandwich \nIngredients: \n• \n2 slices whole grain bread \n• \n1/2 avocado, mashed \n• \n1/2 cup chickpeas, mashed \n• \n1/4 cup cherry tomatoes, halved \n• \n1 tablespoon olive oil \n• \nSalt and pepper to taste \nInstructions: \n• \nIn a bowl, combine the mashed avocado and chickpeas. • \nSpread the mixture on one slice of bread. • \nTop with cherry tomatoes and drizzle with olive oil.",
+      "page_number": 9
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "BBQ Chicken Wrap \nIngredients: \n• \n1 whole wheat tortilla \n• \n1 cup cooked chicken breast, shredded \n• \n2 tablespoons BBQ sauce \n• \n1/4 cup shredded cheese \n• \n1/4 cup coleslaw mix \nInstructions: \n• \nLay the tortilla flat and spread the BBQ sauce evenly. • \nAdd the chicken, cheese, and coleslaw mix. • \nRoll up the tortilla tightly and slice in half.",
+      "page_number": 12
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \n1/4 cup red onion, finely chopped \n• \n1/4 cup cilantro, chopped \n• \n2 tablespoons olive oil \n• \n1 tablespoon lime juice \n• \nSalt and pepper to taste \nInstructions: \n• \nIn a large bowl, combine the black beans, corn, tomatoes, red onion, and cilantro. • \nDrizzle with olive oil and lime juice. • \nSeason with salt and pepper, then toss to combine.",
+      "page_number": 8
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Greek Yogurt Parfait \nIngredients: \n• \n1 cup Greek yogurt \n• \n1/2 cup granola \n• \n1/2 cup mixed berries (strawberries, blueberries, raspberries) \n• \n1 tablespoon honey \nInstructions: \n• \nIn a bowl or jar, layer the Greek yogurt, granola, and mixed berries. • \nDrizzle with honey. • \nRepeat the layers if desired.",
+      "page_number": 3
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \nLay the tortilla flat and spread the cranberry sauce evenly. • \nAdd the turkey, spinach, and carrots. • \nRoll up the tortilla tightly and slice in half.",
+      "page_number": 10
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Greek Yogurt Parfait \nIngredients: \n• \n1 cup Greek yogurt \n• \n1/2 cup granola \n• \n1/2 cup mixed berries (strawberries, blueberries, raspberries) \n• \n1 tablespoon honey \nInstructions: \n• \nIn a bowl or jar, layer the Greek yogurt, granola, and mixed berries. • \nDrizzle with honey. • \nRepeat the layers if desired.",
+      "page_number": 3
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "• \n1/4 cup red onion, finely chopped \n• \n2 tablespoons olive oil \n• \n1 tablespoon lemon juice \n• \nSalt and pepper to taste \nInstructions: \n• \nIn a bowl, combine the tuna, avocado, tomatoes, and red onion. • \nDrizzle with olive oil and lemon juice. • \nSeason with salt and pepper, then toss to combine.",
+      "page_number": 11
+    }
+  ]
+}
