@@ -4,7 +4,7 @@
 
 This project is a Python-based document analysis tool that extracts relevant sections from PDF documents based on a specific persona and job description. It uses machine learning models to identify and rank document sections by their relevance to a given task, making it ideal for automated document processing and content extraction workflows.
 
-## Project Structure
+## Project Structure📂
 
 - README.md
   → Project overview and documentation
