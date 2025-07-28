@@ -97,7 +97,7 @@ The model is stored locally in the models/ directory to enable offline processin
 
 3. **Set Environment Variables for Offline Mode**:
    bash
-   export HF_HUB_OFFLINE=1
+   export HF_HUB_OFFLINE=1<br/>
    export TRANSFORMERS_OFFLINE=1
 
 These commands ensure the application works in offline mode without attempting to download models from the internet.
@@ -109,12 +109,12 @@ bash
 
 # Set offline mode (if not already set)
 
-export HF_HUB_OFFLINE=1
+export HF_HUB_OFFLINE=1<br/>
 export TRANSFORMERS_OFFLINE=1
 
 # Run batch processing for all cases
 
-python3 batch_run.py
+python batch_run.py
 
 ### Docker Execution
 
