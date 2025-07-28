@@ -170,7 +170,7 @@ ENV HF_HUB_OFFLINE=1 \
 ### Application Setup
 
 dockerfile<br/>
-COPY requirements.txt .
+COPY requirements.txt .<br/>
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 - Installs Python dependencies first (Docker layer caching optimization)
