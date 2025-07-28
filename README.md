@@ -97,7 +97,6 @@ The model is stored locally in the models/ directory to enable offline processin
    ```
    export HF_HUB_OFFLINE=1<br/>
    export TRANSFORMERS_OFFLINE=1
-
 These commands ensure the application works in offline mode without attempting to download models from the internet.
 
 # Set offline mode (if not already set)
