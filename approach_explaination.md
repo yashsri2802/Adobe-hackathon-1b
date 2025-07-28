@@ -108,15 +108,15 @@ These commands ensure the application works in offline mode without attempting t
   
   python batch_run.py
 
-### Docker Execution
+## Docker Execution
 
 Build and run with Docker:
 
-# Build the container
+### Build the container
 
 docker build -t pdf-analyzer .
 
-# Run the container
+### Run the container
 
 docker run --rm -v $(pwd)/output:/app/output pdf-analyzer
 
