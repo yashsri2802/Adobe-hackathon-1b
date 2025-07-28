@@ -88,24 +88,19 @@ The model is stored locally in the models/ directory to enable offline processin
 ### Prerequisites
 
 1. **Install Dependencies**:
-   bash
+   ```
    pip install -r requirements.txt
 
 2. **Verify Python Version**:
-   bash
+   ```
    python3 --version # Should be 3.11+
 
 3. **Set Environment Variables for Offline Mode**:
-   bash
+   ```
    export HF_HUB_OFFLINE=1<br/>
    export TRANSFORMERS_OFFLINE=1
 
 These commands ensure the application works in offline mode without attempting to download models from the internet.
-
-### Running All Cases
-
-Process all test cases in batch:
-bash
 
 # Set offline mode (if not already set)
 
@@ -119,7 +114,6 @@ python batch_run.py
 ### Docker Execution
 
 Build and run with Docker:
-bash
 
 # Build the container
 
@@ -136,7 +130,7 @@ docker run --rm -v $(pwd)/output:/app/output pdf-analyzer
 Based on the test cases with 7 PDF documents each:
 
 - **Single Case Processing**: 10 seconds
-- **All Three Cases**: 30 seconds
+- **All Three Cases**: ~30 seconds
 
 ## Dockerfile Explanation
 
