@@ -15,7 +15,7 @@ COPY requirements.txt .
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
 COPY models/ models/
-COPY batch_run.py round1b_offline.py ./
+COPY batch_run.py main.py ./
 COPY case1/ case1/
 COPY case2/ case2/
 COPY case3/ case3/
