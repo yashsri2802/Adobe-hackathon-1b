@@ -16,7 +16,7 @@ This project is a Python-based document analysis tool that extracts relevant sec
 - .dockerignore
   → Docker build exclusions
 
-- main.py
+- round1b_offline.py
   → Main script for PDF analysis and section extraction
 
 - batch_run.py
@@ -33,7 +33,7 @@ This project is a Python-based document analysis tool that extracts relevant sec
   │   → Input PDF documents
   ├── output/
   │   → Generated JSON results
-  └── input.json
+  └── challenge1b_input.json
       → Input configuration file for the case
 
 - case2/
@@ -45,7 +45,7 @@ This project is a Python-based document analysis tool that extracts relevant sec
 
 ### Main Processing Script (round1b_offline.py)
 
-The core functionality is implemented in main.py, which performs the following operations:
+The core functionality is implemented in round1b_offline.py, which performs the following operations:
 
 1. **PDF Text Extraction**: Uses PyMuPDF (fitz) to extract text and structural elements from PDF documents
 2. **Document Outline Detection**: Automatically identifies document structure including:
