@@ -7,9 +7,9 @@ for case in cases:
     print(f"\nProcessing {case}...")
     
     cmd = [
-        "python", "round1b_offline.py",
+        "python", "main.py",
         "--input_dir", f"{case}/input",
-        "--input_json", f"{case}/challenge1b_input.json", 
+        "--input_json", f"{case}/input.json", 
         "--output_dir", f"{case}/output",
         "--model_dir", "models/all-MiniLM-L6-v2"
     ]
